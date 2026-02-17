@@ -1,0 +1,9 @@
+{
+	"id": "dho-convert-dropbox-photolink",
+	"name": "Convert Dropbox Photo Link",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Converts pasted Dropbox photo links into Obsidian image embeds.",
+	"author": "dho",
+	"isDesktopOnly": false
+}
