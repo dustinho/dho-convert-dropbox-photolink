@@ -16,7 +16,7 @@ export default class ConvertDropboxPhotolinkPlugin extends Plugin {
 				// Defer to handle the case where Obsidian already committed the paste
 				// before this event fired (making preventDefault ineffective). Check
 				// whether the raw URL landed in the editor; if so, replace it in-place.
-				activeWindow.setTimeout(() => {
+				window.setTimeout(() => {
 					const cursor = editor.getCursor();
 					const line = editor.getLine(cursor.line);
 					const urlIdx = line.lastIndexOf(text);
